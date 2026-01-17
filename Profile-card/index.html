@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <!-- Nhúng Font chữ "Outfit" từ Googles Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Nhúng Icon từ FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header"></div>
+
+        <div class="card-body">
+            <div class="avatar-wrapper">
+                <img class="avatar" src="avatar.jpg" alt="Profile avatar">
+            </div>
+
+            <h2 class="name">Lâm Khánh Duy</h2>
+            <p class="description">Frontend Developer</p>
+            <p class="bio">Tạo ra trải nghiệm người dùng tốt nhất có thể!</p>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <span class="number" id="followers">2500</span>
+                    <span class="label">Followers</span>
+                </div>
+                <div class="stat-box">
+                    <span class="number">500k</span>
+                    <span class="label">Following</span>
+                </div>
+                <div class="stat-box">
+                    <span class="number">2</span>
+                    <span class="label">Projects</span>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-btn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+
+            <div class="action-buttons">
+                <button class="btn btn-primary" id="followBtn">Follow</button>
+                <button class="btn btn-outline">Message</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="start.js"></script>
+</body>
+
+</html>
